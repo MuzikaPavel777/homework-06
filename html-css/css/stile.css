@@ -60,6 +60,10 @@ input[type="radio"].visually-hidden {
   font-weight: 400;
   text-transform: uppercase;
 }
+.navigation-list-link:hover {
+  background-color: #f38181;
+  transition: width 0.2s linear;
+}
 .navigation-list-link::after {
   display: block;
   width: 0%;
@@ -120,6 +124,7 @@ span {
   color: #333333;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
+  text-transform: uppercase;
 }
 .services-list-item-text {
   font-size: 15px;
@@ -213,6 +218,7 @@ span {
 }
 .team-list-item {
   position: relative;
+  width: 380px;
 }
 .overlay {
   position: absolute;
