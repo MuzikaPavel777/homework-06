@@ -61,7 +61,7 @@ input[type="radio"].visually-hidden {
   text-transform: uppercase;
 }
 .navigation-list-link:hover {
-  background-color: #f38181;
+  color: #f38181;
   transition: width 0.2s linear;
 }
 .navigation-list-link::after {
@@ -241,7 +241,7 @@ span {
 .overlay-list {
   display: flex;
 }
-.overlay-list-item {
+.overlay-list-item-social {
   display: block;
   width: 56px;
   height: 56px;
@@ -251,7 +251,7 @@ span {
   transition: all 0.2s linear;
   cursor: pointer;
 }
-.overlay-list-item:not(:last-child) {
+.overlay-list-item-social:not(:last-child) {
   margin-right: 3px;
 }
 .overlay-list-item-facebook {
@@ -276,8 +276,8 @@ span {
   opacity: 1;
   visibility: visible;
 }
-.overlay-list-item:hover,
-.overlay-list-item:focus {
+.overlay-list-item-social:hover,
+.overlay-list-item-social:focus {
   background-color: #95e1d3;
 }
 
@@ -334,4 +334,11 @@ span {
   text-transform: uppercase;
   color: #ffffff;
   cursor: pointer;
+}
+.footer-wrap__item {
+  font-size: 14px;
+  color: #333333;
+  font-family: "Montserrat";
+  font-weight: 400;
+  text-align: center;
 }
